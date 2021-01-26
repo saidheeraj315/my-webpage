@@ -1,0 +1,113 @@
+<title>UNITED STTES OF AMERICA </title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 15vw;
+  }
+  #main > nav {
+    background: #D7E8D4;
+    order: 3;
+  }
+  #main > aside {
+    background: beige;
+    order: 2;
+  }
+  header, footer {
+    background: lightblue;
+    height: 15vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
+<body>
+  <header>UNITED STATES OF AMERICA
+  <button onclick="goBack()">Home Page</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+  </header>
+  <div id="main">
+    <article>DESCRIPTION
+	<p> The United States of America (USA), generally known as the United States or America, is a nation predominantly situated in North America, 
+	composed of 50 states, a federal region, five main self-government zones and numerous possessions. At 3.8 million square miles, it is the third or 
+	fourth largest country in the world by total size. With a population of more than 328 million, it is the third most populated nation in the world. 
+	The national capital is Washington, D.C., and New York City is the most populous city.</p> 
+  <img src="E:\dheeraj\winter_2021\ENGO_651\LAB0\images\usa.jpg" height= "250", width="350" style="float:right" >
+  
+  <style>
+  table {
+  font-family: georgia, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>COVID-19 CASES</h2>
+
+<table>
+  <tr>
+    <th>STATES</th>
+    <th>Total Cases</th>
+    <th>Active Cases</th>
+  </tr>
+  <tr>
+    <td>CALIFORNIA</td>
+    <td>3.199.895</td>
+    <td>1.718.152</td>
+  </tr>
+  <tr>
+    <td>TEXAS </td>
+    <td>2.275.305</td>
+    <td>380.079</td>
+  </tr>
+  <tr>
+    <td>FLORIDA</td>
+    <td>1.658.169</td>
+    <td>793.482</td>
+  </tr>
+  
+  
+</table>
+
+</body>
+
+  </article>
+    
+    <aside>STATES
+	<li> CALIFORNIA</li> <li> TEXAS</li> <li>FLORIDA</li> </aside>
+  </div>
+  <footer>PRESIDENT: JOE BIDEN</footer>
+</body>

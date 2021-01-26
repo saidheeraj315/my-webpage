@@ -1,0 +1,112 @@
+<title>ITALY </title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 15vw;
+  }
+  #main > nav {
+    background: #D7E8D4;
+    order: 3;
+  }
+  #main > aside {
+    background: beige;
+    order: 2;
+  }
+  header, footer {
+    background: lightblue;
+    height: 15vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
+<body>
+  <header>ITALY
+  <button onclick="goBack()">Home Page</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+  </header>
+  <div id="main">
+    <article>DESCRIPTION
+	<p> Officially, Italy The Italian Republic is a nation made up of a peninsula delimited by the Alps with numerous islands surrounding it. 
+	Italy is situated in South Central Europe and is considered part of Western Europe. The Unified Parliamentary Republic, with Rome as its capital, 
+	occupies a total area of 301,340 km2 and shares land boundaries with France, Switzerland, Austria and Slovenia..</p> 
+  <img src="E:\dheeraj\winter_2021\ENGO_651\LAB0\images\italy.jpg" height= "250", width="250" style="float:right" >
+  
+  <style>
+  table {
+  font-family: georgia, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>COVID-19 CASES</h2>
+
+<table>
+  <tr>
+    <th>STATES</th>
+    <th>Total Cases</th>
+    <th>Active Cases</th>
+  </tr>
+  <tr>
+    <td>LOMBARDY</td>
+    <td>527K</td>
+    <td>77K</td>
+  </tr>
+  <tr>
+    <td>VENETO </td>
+    <td>306K</td>
+    <td>49K</td>
+  </tr>
+  <tr>
+    <td>CAMPANIA</td>
+    <td>215K</td>
+    <td>67K</td>
+  </tr>
+  
+  
+</table>
+
+</body>
+
+  </article>
+    
+    <aside>STATES
+	<li> LOMBARDY</li> <li> VENETO</li> <li>CAMPANIA</li> </aside>
+  </div>
+  <footer>PRESIDENT: GIUSEPPE CONTE</footer>
+</body>

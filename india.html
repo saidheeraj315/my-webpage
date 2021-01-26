@@ -1,0 +1,112 @@
+<title>INDIA</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 15vw;
+  }
+  #main > nav {
+    background: #D7E8D4;
+    order: 3;
+  }
+  #main > aside {
+    background: beige;
+    order: 2;
+  }
+  header, footer {
+    background: slateblue;
+    height: 15vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
+<body>
+  <header>INDIA
+  <button onclick="goBack()">Home Page</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+  </header>
+  <div id="main">
+    <article>DESCRIPTION
+	<p> The Republic of India is technically a country in South Asia. It is the second-most populated economy, the seventh-largest land-based country, 
+  and the most populous democracy in the world. It is bounded by the Indian Ocean to the south, the Arabian Sea to the southwest, and the Bay of Bengal 
+  to the southeast, and shares land boundaries with Pakistan to the west.</p> 
+  <img src="E:\dheeraj\winter_2021\ENGO_651\LAB0\images\india.jpg" height= "350", width="250" style="float:right" >
+  
+  <style>
+  table {
+  font-family: georgia, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>COVID-19 CASES</h2>
+
+<table>
+  <tr>
+    <th>STATES</th>
+    <th>Total Cases</th>
+    <th>Active Cases</th>
+  </tr>
+  <tr>
+    <td>TELANGANA</td>
+    <td>293,590</td>
+    <td>3,072</td>
+  </tr>
+  <tr>
+    <td>ANDHRA PRADESH</td>
+    <td>887,066</td>
+    <td>1,389</td>
+  </tr>
+  <tr>
+    <td>MAHARSHTRA</td>
+    <td>2,010,948</td>
+    <td>44,789</td>
+  </tr>
+  
+  
+</table>
+
+</body>
+
+  </article>
+    
+    <aside>STATES
+	<li> TELANGANA</li> <li> ANDHRA PRADESH</li> <li>MAHARSHTRA</li> </aside>
+  </div>
+  <footer>PRIME MINISTER: NARENDRA MODI</footer>
+</body>
